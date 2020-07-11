@@ -1,0 +1,276 @@
+/* quote */
+.quote {
+  text-align: center;
+  background: black;
+  color: white;
+  height: 64px;
+}
+
+
+/* navbar */
+.nav-text {
+  text-decoration: underline;
+  color: #f1545a;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  text-shadow: 2px 2px #000;
+}
+
+.navi {
+  background-color: black;
+
+  padding-top: 0;
+}
+.nav-item{
+  text-shadow: 2px 2px #000;
+}
+
+/* image slide */
+.h1car {
+  font-size: 7rem;
+  font-family: 'Ubuntu';
+  text-shadow: 1px 1px #000;
+}
+
+.h2car {
+  font-size: 5rem;
+  font-family: 'Ubuntu';
+  text-shadow: 1px 1px #000;
+  margin-bottom: 10%;
+  color: #f1545a;
+}
+
+.hcar {
+  font-size: 5rem;
+  font-family: 'Ubuntu';
+  text-shadow: 1px 1px #000;
+  color: #f1545a;
+}
+
+/* box item */
+.up {
+  background: url(https://c4.wallpaperflare.com/wallpaper/214/398/547/fruits-food-apples-black-background-technology-apple-hd-art-wallpaper-preview.jpg);
+  color: white;
+  letter-spacing: 2px;
+  padding: 5% 2%;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+
+}
+
+.down {
+  background: url(../greyblock.jpg);
+  padding: 5% 2%;
+  letter-spacing: 2px;
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+}
+.up2{
+  background-image: url(https://wallpaperaccess.com/full/804834.jpg);
+  color: white;
+  letter-spacing: 1px;
+  background-position: center;
+  padding: 5% 2%;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width:1020px) {
+  .up2{
+    min-height: 200px;
+  }
+  .up{
+    min-height: 250px;
+  }
+  .down{
+      min-height: 250px;
+
+  }
+}
+.box-text{
+  text-decoration: underline;
+  color: #f1545a;
+}
+/* easy exercise */
+.b{
+  text-align: center;
+  background-color: white;
+  padding: 3%;
+}
+
+.b-text3{
+  width: 80%;
+  margin: auto;
+  color: #27496d;
+}
+.b-text1{
+  width: 60%;
+  margin: auto;
+  font-size: 2rem;
+  color: #27496d;
+}
+.b-text2{
+  font-size: 4rem;
+}
+.easy{
+  margin: 5% 1%;
+}
+.card{
+  margin-bottom: 50px;
+
+}
+
+/* download */
+#cta{
+  padding: 3%;
+  background-color: #222222;
+  text-align:center;
+
+}
+.cta-text{
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 3rem;
+  width: 80%;
+  margin: auto;
+}
+
+.ur-button{
+  margin: 40px 1% 10px;
+
+}
+.down-img{
+  width: 100%;
+}
+/* parallax */
+.para{
+  position: relative;
+}
+.para-text{
+  position: absolute;
+  z-index: 1000;
+ top: 30%;
+  left: 5%;
+    font-size: 3rem;
+    color: #111d5e;
+}
+.para-text-2{
+  position: absolute;
+  font-size: 5rem;
+  z-index: 100;
+  top: 40%;
+  left:5%;
+  color: #ff4301;
+
+}
+.para-text-3{
+  position: absolute;
+  width: 500px;
+  top: 55%;
+  left: 5%;
+  color: #596e79;
+
+}
+@media (max-width:900px) {
+  .para-text-2{
+    font-size: 4rem;
+    text-shadow: 1px 1px #000;
+  }
+  .para-text{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px #000;
+
+  }
+  .para-text-3{
+    visibility: hidden;
+  }
+}
+.parallax{
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2020%2F04%2F16%2Fjump-rope-GettyImages-1177167256-2000.jpg");
+
+ min-height: 700px;
+
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+/* plan price */
+.plan-row{
+  margin: 150px 0 100px;
+  padding: 0 100px;
+
+}
+.base-card{
+  text-align: center;
+}
+.max-card{
+text-align: center;
+}
+.pro-card{
+  text-align: center;
+}
+.price-item{
+  text-align: left;
+}
+
+.price-head{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+
+
+
+
+/* conatact */
+
+
+#footer{
+  padding: 4%;
+  background-color: #222222;
+  text-align: center;
+  color: white;
+}
+.icon-foot{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+/* bmi */
+.bmi-bg{
+  background-color: black;
+  color: white;
+}

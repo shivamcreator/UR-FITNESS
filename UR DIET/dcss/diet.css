@@ -1,0 +1,19 @@
+.nav-ur{
+  color: #f1545a;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+.paral{
+  background-image: url(https://previews.123rf.com/images/greenartphotography/greenartphotography1704/greenartphotography170400054/76349716-citrus-fruits-vegan-mix-flat-lay-on-white-background-healthy-vegetarian-organic-food-antioxidant-det.jpg);
+  height: 2600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20%;
+}
+.box-fade{
+  background-color: rgba(0,0,0,0.6);
+ text-align: left;
+ padding: 30px;
+}

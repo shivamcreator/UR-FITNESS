@@ -1,0 +1,46 @@
+/* navbar */
+.nav-ur{
+  color: #f1545a;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+.ex{
+  margin: 10px 0;
+  text-align: center;
+}
+.ex-row{
+  padding: 30px;
+}
+.cta{
+  padding: 3%;
+  background-color: #222222;
+  text-align:center;
+
+}
+.cta-text{
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 3rem;
+  width: 80%;
+  margin: auto;
+}
+
+.ur-button{
+  margin: 40px 1% 10px;
+
+}
+.down-img{
+  width: 100%;
+}
+
+/*
+body parts */
+
+
+.bp{
+  text-align: center;
+}
+
+.ex-all{
+  padding: 30px;
+}
